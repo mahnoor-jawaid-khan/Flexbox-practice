@@ -1,0 +1,28 @@
+body  {
+    background-color: rgb(180, 253, 253);
+        
+}
+h1 {
+    text-align: center;
+    color: white;
+    text-decoration: underline;
+    font-size: 50px;
+    text-shadow: 2px 4px 6px black;
+}
+
+.container{
+    display: flex;
+    align-content: space-between;
+    flex-direction: row;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.box1{
+    border: 1px solid black;
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    background-color: rgba(255, 255, 0, 0.434);
+    margin: 2px;
+    
+}
